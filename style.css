@@ -1,0 +1,45 @@
+/* select an element by name 
+
+body{
+    background-color:red ;
+}
+
+SELECTORS
+
+name {
+    propert: value
+}
+
+p {
+    color: green;
+}
+
+id selector
+
+class selector
+
+header li {
+    display: inline-block;
+}
+
+* {
+    border: 2px solid black;
+}
+
+section {
+    display: inline-block;
+    background-color: purple;
+    width: 30%;
+}
+
+
+
+img {
+    width: 200px;
+}
+
+h1 {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}  */
