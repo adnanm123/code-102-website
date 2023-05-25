@@ -57,7 +57,7 @@ console.log(userName);
 // }
 
 if (userName == "Adnan"){
-  document.write("Hiya teach!");
+  document.write("Welcome!<br>");
 } else if (userName == "David") {
   document.write("Hi " + userName + "!");
 }else if (userName == "Luke") {
@@ -67,13 +67,13 @@ if (userName == "Adnan"){
 } else if (userName == "Dexter") {
   document.write("Hi " + userName + "!");
 } else if (userName == "Tonya") {
-  document.write("Hi " + userName + "!");
+  document.write("Hi " + userName + "!<br>");
 }
 else {
-  document.write("Welcome!");
+  document.write("Welcome!<br>");
 }
 
-document.write("I LIKE CODING");
+document.write("This is my website!<br>");
 
  
 // 1. The code asks the user to enter their favorite sport 
@@ -87,12 +87,11 @@ document.write("I LIKE CODING");
 // 4. If the value of sport is not "basketball", it displays "So what 
 // is your favorite sport" on the web page using document.write().
 
-const sport = prompt("What is your favorite sport?");
+const sport = prompt("Do you like sports? yes or no?");
 console.log(sport);
 
-if(sport == "basketball"){
-    document.write("Great");
-}
-else if(sport != "basketball") {
-    document.write("So what is your favorite sport");
+if (sport.toLowerCase() === "yes") {
+  alert("Great!");
+} else if (sport.toLowerCase() === "no") {
+  alert("Booo!");
 }
