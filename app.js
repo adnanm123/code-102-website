@@ -57,7 +57,7 @@ console.log(userName);
 // }
 
 if (userName == "Adnan"){
-  document.write("Welcome!<br>");
+  document.write("Welcome! ");
 } else if (userName == "David") {
   document.write("Hi " + userName + "!");
 }else if (userName == "Luke") {
@@ -70,10 +70,10 @@ if (userName == "Adnan"){
   document.write("Hi " + userName + "!<br>");
 }
 else {
-  document.write("Welcome!<br>");
+  document.write("Welcome! ");
 }
 
-document.write("This is my website!<br>");
+document.write("This is my website! ");
 
  
 // The code prompts the user to answer whether they like sports, stores their 
@@ -86,6 +86,7 @@ console.log(sport);
 
 if (sport.toLowerCase() === "yes") {
   alert("Great!");
+  sport = prompt("What is your favorite sport?");
 } else if (sport.toLowerCase() === "no") {
   alert("Booo!");
 }
