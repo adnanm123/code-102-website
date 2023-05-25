@@ -1,45 +1,85 @@
-/* select an element by name 
-
-body{
-    background-color:red ;
+header {
+    background-color: lightyellow;
+    margin-bottom: 50px;
 }
 
-SELECTORS
-
-name {
-    propert: value
-}
-
-p {
-    color: green;
-}
-
-id selector
-
-class selector
-
-header li {
+/* This turns our navigation links vertically across the page */
+.nav-li {
     display: inline-block;
-}
-
-* {
-    border: 2px solid black;
-}
-
-section {
-    display: inline-block;
-    background-color: purple;
-    width: 30%;
-}
-
-
-
-img {
-    width: 200px;
-}
-
-h1 {
-    float: left;
     margin: 10px;
     padding: 10px;
-}  */
+    color: chocolate;
+    }
+
+    nav {
+        display: inline-block;
+    }
+
+    h1 {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        color: blue;
+    } 
+    
+    #profile {
+       display: block;
+       width: 400px;
+       height: 400px;
+       border-radius: 20%;
+       margin: 0 auto;
+       margin-bottom: 100px;
+    }
+
+    section {
+        display: inline-block;
+        /* border-radius: 100%; */
+        border: 2px solid black;
+        width: 30%;
+        height: 50%;
+        vertical-align: top;
+        background-color: blueviolet;
+        margin-bottom: 50px;
+    }
+
+    #header1 {
+        color: beige;
+    }
+
+    .li-bio {
+        color: beige;
+    }
+
+    p {
+        color: orange;
+    }
+
+    #header2 {
+        color: orange;
+    }
+
+    #header3 {
+        color:chartreuse;
+    }
+
+   .li-li {
+    color:chartreuse;
+   }
+
+    article {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    body {
+        background-color: turquoise;
+        margin: 0;
+        padding: 0;
+    }
+    
+    footer {
+        background-color: lightyellow;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
