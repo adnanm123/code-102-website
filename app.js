@@ -76,16 +76,10 @@ else {
 document.write("This is my website!<br>");
 
  
-// 1. The code asks the user to enter their favorite sport 
-// using a prompt and stores the input in the variable sport.
-
-// 2. It logs the value of sport to the console.
-
-// 3. If the value of sport is "basketball", it displays "Great"
-// on the web page using document.write().
-
-// 4. If the value of sport is not "basketball", it displays "So what 
-// is your favorite sport" on the web page using document.write().
+// The code prompts the user to answer whether they like sports, stores their 
+// response in the variable sport, and displays a pop-up alert message based on 
+// their answer ("Great!" if they answer "yes" and "Booo!" if they answer "no"). 
+// The user's input is also logged to the console.
 
 const sport = prompt("Do you like sports? yes or no?");
 console.log(sport);
