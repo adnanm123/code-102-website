@@ -148,7 +148,7 @@ let user =  userName();
 
 function nameUser(){
   if (user == "Adnan"){
-    document.write("Welcome! ");
+    document.write("Welcome Adnan! ");
   } else if (user == "David") {
     document.write("Hi " + user + "!");
   }else if (user == "Luke") {
@@ -191,4 +191,19 @@ function userSport(){
 
 userSport();
 
+
+function guessSport(){
+  let guess = prompt("What is my favorite sport?");
+  while (guess != 'basketball'){
+    guess = prompt("Incorrect. What is my favorite sport?");
+  }
+  document.write("You guessed my favorite sport");
+}
+
+function rateSports(){
+  let rating = prompt("How many basketballs do you want to see on my website?");
+  for (let i = 0; i < rating; i++){
+    document.write('<img src="basketball.jpeg" />');
+  }
+}
 
