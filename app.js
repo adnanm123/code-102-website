@@ -193,17 +193,17 @@ userSport();
 
 
 function guessSport(){
-  let guess = prompt("What is my favorite sport?");
-  while (guess != 'basketball'){
-    guess = prompt("Incorrect. What is my favorite sport?");
+  let sportGuess = prompt("What is my favorite sport?");
+  while (sportGuess != 'basketball'){
+    sportGuess = prompt("Wrong answer, please try again. What is my favorite sport?");
   }
   document.write("You guessed my favorite sport");
 }
 
 function rateSports(){
-  let rating = prompt("How many basketballs do you want to see on my website?");
-  for (let i = 0; i < rating; i++){
-    document.write('<img src="basketball.jpeg" />');
+  let number = prompt("How many basketballs do you want to see on my website? Please enter a number.");
+  for (let i = 0; i < number; i++){
+    document.write('<img src="basket.png" />');
   }
 }
 
